@@ -1,0 +1,44 @@
+$light-green: #94D487;
+$navbar-default-color: $light-green;
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  margin-right: 10px;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo {
+  color: #white;
+  text-decoration: none;
+}
+
+body {
+  padding-top: 80px;
+  background-color: #94D487;
+
+}
+
+.nav_item {
+  margin-left:25px;
+  float: left;
+  margin-top: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 25px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+
+}
